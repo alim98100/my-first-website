@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نام شما - طراح/متخصص</title>
+    <link rel="stylesheet" href="style.css"> <!-- این فایل CSS را در مرحله بعد خواهیم ساخت -->
+    <!-- برای استفاده از فونت فارسی اگر نیاز بود -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">علی محمدی</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">درباره من 
+                        09143963617
+                    </a></li>
+                    <li><a href="#portfolio">نمونه کارها</a></li>
+                    <li><a href="#contact">تماس با من</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>سلام، من علی محمدی  هستم</h1>
+            <p>یک تاجر فرش بهترین فرش های ابریشم را از ما بخواهید </p>
+            <a href="#contact" class="cta-button">با من در ارتباط باشید 09143963617
+                alim98100@gmail.com
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>درباره من</h2>
+            <div class="about-content">
+                <img src="your-photo.jpg" alt="عکس شما" class="profile-photo"> <!-- عکس خودتان را اینجا قرار دهید -->
+                <div class="about-text">
+                    <p>اینجا درباره خودتان، تخصصتان، تجربیاتتان و هر چیزی که دوست دارید بنویسید. سعی کنید متن کوتاه و جذابی باشد.</p>
+                    <p>می‌توانید به علاقه‌مندی‌ها یا اهدافتان هم اشاره کنید.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>نمونه کارها</h2>
+            <div class="portfolio-grid">
+                <!-- نمونه کار ۱ -->
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="پروژه ۱"> <!-- عکس نمونه کار ۱ -->
+                    <h3>سایت درحال بروز رسانی می باشد لطفا منتظر بمانید</h3>
+                    <p>توضیح کوتاه درباره پروژه ۱.</p>
+                    <a href="#">مشاهده بیشتر</a> <!-- لینک به صفحه جزئیات یا لینک پروژه -->
+                </div>
+                <!-- نمونه کار ۲ -->
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="پروژه ۲"> <!-- عکس نمونه کار ۲ -->
+                    <h3>عنوان پروژه ۲</h3>
+                    <p>توضیح کوتاه درباره پروژه ۲.</p>
+                    <a href="#">مشاهده بیشتر</a>
+                </div>
+                <!-- نمونه کار ۳ -->
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="پروژه ۳"> <!-- عکس نمونه کار ۳ -->
+                    <h3>عنوان پروژه ۳</h3>
+                    <p>توضیح کوتاه درباره پروژه ۳.</p>
+                    <a href="#">مشاهده بیشتر</a>
+                </div>
+                <!-- می‌توانید آیتم‌های بیشتری اضافه کنید -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>تماس با من</h2>
+            <p>اگر سوالی دارید یا می‌خواهید همکاری کنیم، از طریق راه‌های زیر با من در تماس باشید:</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com">ایمیل: alim98100@gmail.com</a>
+                <br>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">لینکدین</a> |
+                <a href="https://github.com/yourusername" target="_blank">گیت‌هاب</a> |
+                <a href="https://t.me/yourusername" target="_blank">تلگرام</a>
+                <!-- آدرس شبکه‌های اجتماعی خود را اینجا قرار دهید -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> علی محمدی. تمامی حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
